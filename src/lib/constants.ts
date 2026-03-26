@@ -65,7 +65,7 @@ export const PROJECTS: PROJECTS_TYPE = [
 ];
 
 export const CONTACT = [
-  { id: 1, label: "E-Mail", value: "manuel@hohenadl.dev", href: "mailto:manuel.hohenadl@gmail.com" },
+  { id: 1, label: "E-Mail", value: "manuel@hohenadl.dev", href: "mailto:manuel@hohenadl.dev" },
   { id: 2, label: "Webseite", value: "hohenadl.dev", href: "https://hohenadl.dev" },
   { id: 3, label: "Github", value: "github.com/Manoo089", href: "https://github.com/Manoo089" },
 ];
