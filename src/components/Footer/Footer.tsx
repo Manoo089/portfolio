@@ -14,10 +14,10 @@ export function Footer() {
       </div>
       <nav className="Footer__legal">
         <ul className="Footer__legal-list">
-          <Link href="/impressum" className="Footer__legal-link">
+          <Link href="/impressum" className="Footer__legal-link" rel="nofollow">
             <li>Impressum</li>
           </Link>
-          <Link href="/datenschutzerklaerung" className="Footer__legal-link">
+          <Link href="/datenschutz" className="Footer__legal-link" rel="nofollow">
             <li>Datenschutzerklärung</li>
           </Link>
         </ul>
