@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { MoveUp } from "lucide-react";
 
 export function ScrollToTop() {
   const [visible, setVisible] = useState(false);
@@ -17,7 +18,7 @@ export function ScrollToTop() {
 
   return (
     <button className="ScrollToTop" onClick={scrollToTop} aria-label="Nach oben scrollen">
-      ↑
+      <MoveUp />
     </button>
   );
 }

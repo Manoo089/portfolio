@@ -20,7 +20,7 @@
     &:hover {
       border-color: var(--accent);
       transform: translateX(4px);
-      
+
       .ContactLinks__item-icon {
         color: var(--accent);
       }
@@ -36,6 +36,13 @@
       font-family: Syne, sans-serif;
       font-weight: 600;
       font-size: 15px;
+    }
+
+    &-icon {
+      & > svg {
+        width: 12px;
+        height: 12px;
+      }
     }
   }
 }

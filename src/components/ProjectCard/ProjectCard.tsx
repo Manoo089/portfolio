@@ -2,12 +2,14 @@ import { PROJECTS } from "@/lib/constants";
 import clsx from "clsx";
 import Link from "next/link";
 
+import { MoveRight } from "lucide-react";
+
 export function ProjectCard() {
   return (
     <div className={clsx("ProjectCard")}>
       {PROJECTS.map((project) => (
         <Link key={project.id} href={project.href} className="ProjectCard__wrapper" target="_blank" rel="noopener noreferrer">
-          <div className="ProjectCard__arrow">→</div>
+          <div className="ProjectCard__arrow"><MoveRight /></div>
           <div className="ProjectCard__label">{project.label}</div>
           <h3 className="ProjectCard__title">{project.title}</h3>
           <p className="ProjectCard__desc">{project.description}</p>
